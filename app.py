@@ -60,7 +60,7 @@ body,
 }
 
 [data-testid="stMain"] {
-    overflow: visible;
+    overflow-y: auto !important;
 }
 
 /* Main content spacing — prevent the top content from being clipped */
@@ -71,7 +71,7 @@ body,
     padding-bottom: 3rem !important;
     margin-left: auto;
     margin-right: auto;
-    overflow: visible !important;
+    
 }
 
 /* Headings */
